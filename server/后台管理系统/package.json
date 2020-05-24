@@ -1,0 +1,41 @@
+{
+  "name": "vue-manage-system",
+  "version": "4.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "babel-polyfill": "^6.26.0",
+    "element-ui": "^2.11.0",
+    "loader": "^2.1.1",
+    "mavon-editor": "^2.6.17",
+    "vue": "^2.6.10",
+    "vue-cropperjs": "^3.0.0",
+    "vue-i18n": "^8.10.0",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.0.3",
+    "vue-schart": "^2.0.0",
+    "vuedraggable": "^2.17.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "description": "<a href=\"https://github.com/vuejs/vue\">\r     <img src=\"https://img.shields.io/badge/vue-2.6.10-brightgreen.svg\" alt=\"vue\">\r   </a>\r   <a href=\"https://github.com/ElemeFE/element\">\r     <img src=\"https://img.shields.io/badge/element--ui-2.8.2-brightgreen.svg\" alt=\"element-ui\">\r   </a>\r   <a href=\"https://github.com/lin-xin/vue-manage-system/blob/master/LICENSE\">\r     <img src=\"https://img.shields.io/github/license/mashape/apistatus.svg\" alt=\"license\">\r   </a>\r   <a href=\"https://github.com/lin-xin/vue-manage-system/releases\">\r     <img src=\"https://img.shields.io/github/release/lin-xin/vue-manage-system.svg\" alt=\"GitHub release\">\r   </a>\r   <a href=\"https://lin-xin.gitee.io/example/work/#/donate\">\r     <img src=\"https://img.shields.io/badge/%24-donate-ff69b4.svg\" alt=\"donate\">\r   </a>",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lin-xin/vue-manage-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lin-xin/vue-manage-system/issues"
+  },
+  "homepage": "https://github.com/lin-xin/vue-manage-system#readme"
+}

@@ -1,0 +1,24 @@
+const erp = erp || {};
+const DOMAIN = "http://www.qinqin.life:3000/"
+const HOST2 = DOMAIN + 'xBackstage/api/'
+// const HOST1 = DOMAIN + "front/api/"
+erp.adminUser = HOST2 + "admin/user"
+erp.index = HOST2 + "admin/index"
+erp.getUser = HOST2 + "admin/guser"
+erp.change = HOST2 + "admin/change"
+erp.getIndex = HOST2 + "admin/post"
+erp.search = HOST2 + "admin/search"
+erp.token = HOST2 + "admin/token"
+erp.remove = HOST2 + "admin/remove"
+erp.post = HOST2 + "admin/gpost"
+erp.add = HOST2 + "admin/add",
+    erp.notice = HOST2 + "admin/notice"
+erp.nChange = HOST2 + "admin/nchange"
+erp.nDelete = HOST2 + 'admin/ndelete'
+erp.nUpdate = HOST2 + 'admin/nupdate'
+erp.nSearch = HOST2 + 'admin/nsearch'
+erp.addIndex = HOST2 + "admin/addindex"
+erp.comment = HOST2 + "admin/comment"
+erp.dComment = HOST2 + 'admin/dcomment'
+erp.sComment = HOST2 + "admin/scomment"
+export default erp;
